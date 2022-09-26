@@ -32,3 +32,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+To start - npm run dev
+
+* Allowed hosts in nex.congfig.js (Aws bayout)
+* Incase of any changes in config file, package.json restart the server
+**************************************
+Packages
+
+Axios - used to make API requests
+millify - used to convert large numbers to human readable format. 
+
+******************************
+
+Modifications
+
+*Create diff menu bar for computer and mobile devices
+
+*********************************
+Functions
+
+These are unique functions, read about them in docs
+getStaticProps & getServerSideProps
+
+ROUTING
+
+Next.js has folder based routing
+i.e if we click on any property, it takes us to a url which starts with /property, as all the properties are stored in the property folder. That's the reason we mention the filename as [id] in property folder.   
